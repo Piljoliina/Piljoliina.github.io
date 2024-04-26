@@ -1,10 +1,16 @@
 body {
   /* Overall väritys tekstille ja taustalle */
   color: #7dda58;
-  background-image: url("img/spaces.jpg");
+  background-image: url("img/tausta.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+}
+
+a {
+  text-align: center;
+  font-size: 20px;
+
 }
 
 p {

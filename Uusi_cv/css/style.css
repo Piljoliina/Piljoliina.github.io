@@ -1,0 +1,18 @@
+body{
+    background-image: url("../img/Taustankuva.png");
+    background-repeat: no-repeat;
+
+    background-size: cover;
+}
+
+.center_text{
+    text-align: center;
+
+}
+
+.right_side_img{
+    position: absolute;
+    display: block;
+
+
+}
