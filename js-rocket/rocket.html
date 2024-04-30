@@ -4,19 +4,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="css/rocket.css"
+    <link rel="stylesheet" type="text/css" href="css/rocket.css">
+    <script type="text/javascript" src="js/rocket.js"></script>
     <title>Raketti spagetti</title>
 </head>
-<body>
+
+
+<body class="body-state1">
 
     <!--Vasemmat ideat-->
     <div class="left">
         <div class="state1">
             <h1>JS Rocket Launch!</h1>
-            <a href="#" class="button"
-            onclick="startCountDown();">
-            Launch!</a>
+            <a href="#" class="button" onclick="changeState(2);">Launch!</a>
         </div>
+
+        <div class="state2">
+            <h1 id="countdown">10</h1>
+            <a href="#" class="button" onclick="changeState(1);">Abort!</a>
+        </div>
+
+        <div class="state3">
+            <h1>Lift Off!</h1>
+        </div>
+
+        <div class="state4">
+            <h1>"Well Done!"</h1>
+            <a href="#" class="button" onclick="changeState(1);">Do it Again</a>
+        </div>
+
+        <div class="state5">
+            <h1>Oh NOOOOO</h1>
+            <a href="#" class="button" onclick="doItAgain();">try Again</a>
+        </div>
+
     </div>
     <!--Vasemmat ideat loppuu-->
 
