@@ -1,5 +1,6 @@
 var timer = null;
 
+//countdown määrä
 var countdownNumber = 10
 
 var changeState = function (state) {
